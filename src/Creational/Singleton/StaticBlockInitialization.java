@@ -1,8 +1,12 @@
 package Creational.Singleton;
 
 /*
-    It is similar to EagerInitializedSingleton, but this one will take care of any issue presented during the creation
-    of our singleton instance.
+    ---------------------------------------------------------------------------------------------------------------------------
+    ! --> [Creation] Static Block Initialization
+    ---------------------------------------------------------------------------------------------------------------------------
+    * It is similar to EagerInitializedSingleton, but this one will take care of any issue presented during the creation
+    * of our singleton instance.
+    ---------------------------------------------------------------------------------------------------------------------------
  */
 public class StaticBlockInitialization {
     private static StaticBlockInitialization instance;
